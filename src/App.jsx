@@ -90,7 +90,7 @@ function App() {
   // )
 
   return (
-    <div className="max-w-[1240px] mx-auto mt-2 p-3">
+    <div className="max-w-[1240px] mx-auto mt-2 p-3 bg-purple-200">
       <Search searchData={search} eventHandler={changeSearch} searchWeather={searchWeatherHandler} />
       <Result weatherData={weather} historyData={history} historySearch={historySearchHandler} />
     </div>
